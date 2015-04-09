@@ -1,0 +1,8 @@
+{
+	"name" : "sensible_client",
+	"type" : "_sensible._tcp.local",
+	"port" : 3003,
+	"description" : "Sensible sensible-client on Firefox OS",
+	"description" : "Do not allow to become empty!",
+	"hostname" : "sensible_client.local"
+}

@@ -1,0 +1,20 @@
+{
+    "version": "1",
+    "name": "sensible_server",
+    "type": "certified",
+    "runcible": true,
+    "launch_path": "/index.html",
+    "description": "Firefox OS Sensible helloworld",
+    "icons": {
+        "128": "/icons/icon128x128.png"
+    },
+    "developer": {
+        "name": "hello world"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "permissions": {
+        "tcp-socket": {},
+        "udp-socket": {}
+    }
+}

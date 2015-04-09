@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <title>Hello World</title>
+    <script src="./js/sensible.js" defer></script>
+    <script src="./js/client.js" defer></script>
+    <script src="./js/settings.js" defer></script>
+    <script src="./js/sensible_service.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+  </head>
+
+  <body>
+
+  <div id="settings" data-role="page">
+    <h3 class="title-3">要求機器の設定</h3>
+    <ul>
+      <span class="input-title">要求先サーバのIPアドレス:</span>
+      <input id="ip_address" type="text" value="192.168.249.xxx">
+      <span class="input-title">要求先サーバのポート番号:</span>
+      <input id="port" type="text" value="3002" size="10">
+    </ul>
+    <button id="btn_setup_ip_port" class="action">設定</button>
+  </div>
+
+  <div>
+    <h3 class="title-3">Get Properties</h3>
+    <h4>■全ての値</h4>
+    <button id="btn_get_all_properties" class="action">Get Properties</button>
+    <p id="all_properties" class="result">undefined</p>
+    <h4>■値を指定</h4>
+    <p>Property Name:
+    <select id="get_property_name">
+      <option value="property-a" selected>property-a</option>
+      <option value="property-b">property-b</option>
+    </select>
+    </p>
+    <button id="btn_get_individual_properties" class="action">Get Properties</button>
+    <p id="individual_properties" class="result">undefined<p>
+  </div>
+
+  <div>
+    <h3 class="title-3">Set Properties</h3>
+    <p>Property Name:
+    <select id="set_property_name">
+      <option value="property-a" selected>property-a</option>
+      <option value="property-b">property-b</option>
+    </select>
+    </p>
+    <p>Value:
+    <input id="set_value" type="text">
+    </p>
+    <button id="btn_set_individual_properties" class="action">Set Properties</button>
+  </div>
+
+  <div>
+    <h3 class="title-3">サービスの検索</h3>
+    <button id="btn_discovery_service" class="action">Discovery Service</button>
+    <table id="tbl">
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Host</th>
+        <th>Port</th>
+      </tr>
+    </table>
+  </div>
+
+  </body>
+
+</html>

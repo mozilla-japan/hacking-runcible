@@ -1,0 +1,8 @@
+{
+	"name" : "helloworld",
+	"type" : "_sensible._tcp.local",
+	"port" : 3002,
+	"description" : "Sensible helloworld on Firefox OS",
+	"description" : "Do not allow to become empty!",
+	"hostname" : "helloworld.local"
+}

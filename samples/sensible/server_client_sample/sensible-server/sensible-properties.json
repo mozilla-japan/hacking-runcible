@@ -1,0 +1,19 @@
+[
+	{
+		"name" : "property-a",
+		"type" : "string",
+		"priority" : 0,
+		"readonly" : false,
+		"maxlength" : 128,
+		"value" : "a"
+	},
+	{
+		"name" : "property-b",
+		"type" : "string",
+		"priority" : 0,
+		"readonly" : false,
+		"maxlength" : 128,
+		"value" : "b"
+	}
+]
+

@@ -1,0 +1,19 @@
+[
+	{
+		"name" : "file",
+		"type" : "string",
+		"priority" : 0,
+		"readonly" : false,
+		"maxlength" : 128,
+		"value" : ""
+	},
+	{
+		"name" : "files",
+		"type" : "list-files",
+		"priority" : 0,
+		"readonly" : false,
+		"value" : 
+		[
+		]
+	}
+]
